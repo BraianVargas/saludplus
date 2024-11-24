@@ -12,7 +12,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+}
+.banner-iniciosesion img{
+    max-width: 400px;
+    z-index: 10;
 }
 .titulo{
     font-weight: 600;
