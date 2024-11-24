@@ -28,7 +28,7 @@
 
 <body>
 
-     <nav class="navbar color-barra sticky-top">
+    <nav class="navbar color-barra sticky-top">
         <div class="container d-none d-lg-flex ">
             <a class="navbar-brand" href="">
                 <img src="./img/Logoblanco.png" alt="Bootstrap" id="logo-barra">
@@ -54,7 +54,8 @@
                 aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
                     <h5 class="offcanvas-tittle text-white" id="offcanvasNavbarLabel"> SaludPlus </h5>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 menu-nav">
@@ -78,9 +79,9 @@
     </nav>
 
 
-    <section class="container-fluid content my-5">
+    <section class="container-fluid m-0 my-5">
         <div class="container banner-iniciosesion m-auto text-center my-4">
-            <img src="./img/Logoverde.png" alt="logo" class="logo-banner m-auto d-block ">
+            <img src="./img/Logoverde.png" alt="logo" class="logo-banner d-block ">
         </div>
 
         <div class="container mt-5">
@@ -131,66 +132,57 @@
         </div>
     </section>
 
-
-    <footer class="container-fluid text-center mt-5 color-barra">
-        
-        <div class="row">
-            <div class="col-12 col-md-3">
-                <img src="./img/Logotipoblanco.png">
-            </div>
-        </div>
-      
-        <div class="text-center p-3" style="color: white; font-family: roboto; font-weight: bolder;">
-            Visita nuestras redes sociales
+    <footer class="container-fluid mt-5 color-barra">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center pt-4">
+          <!-- Logo -->
+          <div class="col-12 col-md-3 text-center text-md-start mb-3 mb-md-0">
+            <img src="./img/Logotipoblanco.png" class="img-fluid" alt="Logotipo blanco">
           </div>
       
-        <div class="container pt-4">
-          <section class="mb-1">
-            
+          <!-- Iconos de redes sociales -->
+          <section class="col-12 col-md-9 d-flex justify-content-center justify-content-md-end">
+            <!-- Icono de Facebook -->
             <a
-              data-mdb-ripple-init
-              class="btn btn-link btn-floating btn-lg text-body m-1"
+              class="btn btn-link btn-floating btn-lg text-white m-1"
               href="https://www.facebook.com/"
               role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="bi bi-facebook" style="color: white;"  ></i
-            ></a>
+              aria-label="Facebook"
+            >
+              <i class="bi bi-facebook"></i>
+            </a>
       
-            
+            <!-- Icono de WhatsApp -->
             <a
-              data-mdb-ripple-init
-              class="btn btn-link btn-floating btn-lg text-body m-1"
+              class="btn btn-link btn-floating btn-lg text-white m-1"
               href="https://web.whatsapp.com/"
               role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="bi bi-whatsapp" style="color: white;"  ></i
-            ></a>
-
+              aria-label="WhatsApp"
+            >
+              <i class="bi bi-whatsapp"></i>
+            </a>
+      
+            <!-- Icono de Instagram -->
             <a
-              data-mdb-ripple-init
-              class="btn btn-link btn-floating btn-lg text-body m-1"
+              class="btn btn-link btn-floating btn-lg text-white m-1"
               href="https://instagram.com/"
               role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="bi bi-instagram" style="color: white;"  ></i
-            ></a>
-           
-            <a
-            data-mdb-ripple-init
-            class="btn btn-link btn-floating btn-lg text-body m-1"
-            href="index.html"
-            role="button"
-            data-mdb-ripple-color="dark"
-            ><i class="fs-3 bi bi-house-fill" style="color: white;"></i
-          ></a>
-           
-          </section>
+              aria-label="Instagram"
+            >
+              <i class="bi bi-instagram"></i>
+            </a>
       
+            <!-- Icono de Home -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-white m-1"
+              href="index.html"
+              role="button"
+              aria-label="Home"
+            >
+              <i class="bi bi-house"></i>
+            </a>
+          </section>
+        </div>
       </footer>
-
-</body>
-
-</html>
 
 </body>
 
